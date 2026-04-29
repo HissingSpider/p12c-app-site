@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pocket12c Support</title>
+  <style>
+    :root {
+      --bg: #1e120b;
+      --bg2: #714e31;
+      --panel: #f0e4d3;
+      --ink: #16120f;
+      --muted: #66584d;
+      --accent: #c8952b;
+      --border: rgba(255,255,255,0.16);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: linear-gradient(180deg, var(--bg2), var(--bg));
+      min-height: 100vh;
+    }
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 36px 20px 60px;
+    }
+    .card {
+      background: linear-gradient(180deg, #f8efdf, var(--panel));
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 32px 26px;
+      box-shadow: 0 18px 50px rgba(0,0,0,0.26);
+    }
+    h1, h2 { margin: 0 0 12px; }
+    h1 { font-size: clamp(2rem, 4vw, 3rem); }
+    h2 { margin-top: 28px; font-size: 1.15rem; }
+    p, li {
+      line-height: 1.65;
+      color: var(--muted);
+      margin: 0 0 12px;
+    }
+    ul { padding-left: 20px; margin: 0; }
+    a { color: inherit; }
+    .email {
+      display: inline-block;
+      margin: 10px 0 18px;
+      padding: 12px 16px;
+      border-radius: 999px;
+      text-decoration: none;
+      background: linear-gradient(180deg, #d3a23a, var(--accent));
+      color: white;
+      font-weight: 700;
+    }
+    .toplink { display: inline-block; margin-bottom: 18px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <a class="toplink" href="./index.html">Back to Pocket12c</a>
+      <h1>Support</h1>
+      <p>If you need help with Pocket12c, want to report a bug, or have a question about app behavior, contact support here:</p>
+      <p><a class="email" href="mailto:support@deerdawn.com">support@deerdawn.com</a></p>
+
+      <h2>Include in Your Message</h2>
+      <ul>
+        <li>Your device model and iOS version</li>
+        <li>The version of Pocket12c you are using</li>
+        <li>The exact keys or workflow that produced the issue</li>
+        <li>A screenshot, if relevant</li>
+      </ul>
+
+      <h2>Common Topics</h2>
+      <ul>
+        <li>Financial calculation questions</li>
+        <li>Program memory and PRGM workflow questions</li>
+        <li>Theme or display formatting issues</li>
+        <li>Persistence or settings behavior</li>
+      </ul>
+
+      <h2>App Scope</h2>
+      <p>Pocket12c is designed as an HP-12C-style financial calculator experience for iPhone users who want familiar layout and workflow. It is not affiliated with Hewlett-Packard or any hardware manufacturer.</p>
+    </div>
+  </div>
+</body>
+</html>
